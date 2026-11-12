@@ -1,0 +1,26 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [
+    "@ai4paper/apaper-plugin"
+  ],
+  "mcp": {
+    "servers": {
+      "apaper-mcp": {
+        "type": "local",
+        "command": [
+          "uvx",
+          "--with",
+          "patchright==1.62.1",
+          "apaper-mcp==0.3.7"
+        ],
+        "environment": {
+          "IACR_DOWNLOAD_TIMEOUT_MS": "90000",
+          "IACR_CAPTCHA_ATTEMPTS": "1"
+        },
+        "timeout": {
+          "execution": 120000
+        }
+      }
+    }
+  }
+}
