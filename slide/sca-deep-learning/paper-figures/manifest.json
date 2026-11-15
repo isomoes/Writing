@@ -1,0 +1,12 @@
+[
+  {"name":"maghrebi-rank", "key":"maghrebi", "pdf":"iacr_2016_921.pdf", "page":16, "rect":[148,132,452,376], "figure":"Fig. 8", "note":"完整绘图区、坐标与图例；硬件 AES / DPA contest v2，第一 S 盒。"},
+  {"name":"cagli-augmentation", "key":"cagli", "pdf":"iacr_2017_740.pdf", "page":13, "rect":[134,111,473,190], "figure":"Fig. 3", "note":"保留左右两种增强示意；原图 D 为轨迹长度，原图 T 为增强范围。"},
+  {"name":"cagli-learning", "key":"cagli", "pdf":"iacr_2017_740.pdf", "page":15, "rect":[132,112,456,189], "figure":"Fig. 5（上排）", "note":"原图的三组训练/验证准确率曲线；下排混淆矩阵未选入。"},
+  {"name":"cagli-jitter-ge", "key":"cagli", "pdf":"iacr_2017_740.pdf", "page":18, "rect":[137,387,473,502], "figure":"Fig. 7", "note":"完整左右绘图区；低/高 jitter 数据，模板攻击与 CNN 的比较。"},
+  {"name":"zaid-ge", "key":"zaid", "pdf":"iacr_2019_803.pdf", "page":19, "rect":[225,101,376,202], "figure":"Fig. 8(a)", "note":"同步 ASCAD 的完整 GE 子图，保留坐标轴与 (a) 编号。"},
+  {"name":"nlm-architecture", "key":"nlm", "pdf":"iacr_2025_1954.pdf", "page":7, "rect":[190,109,412,304], "figure":"Fig. 1", "note":"完整网络图；原图 Y_K、Ψθ、D 分别对应统一符号 z、gθ、T。"},
+  {"name":"nlm-ches-hw", "key":"nlm", "pdf":"iacr_2025_1954.pdf", "page":15, "rect":[106,103,229,212], "figure":"Fig. 6(a)", "note":"CHES2025 的 HW-CPA 子图；保留 Wrong Key / Correct Key 图例和坐标。"},
+  {"name":"nlm-ches-nlm", "key":"nlm", "pdf":"iacr_2025_1954.pdf", "page":15, "rect":[301,228,423,334], "figure":"Fig. 6(e)", "note":"同一设置的 NLM-CPA 子图；保留图例和坐标，未改变曲线。"},
+  {"name":"nlm-ches-ge", "key":"nlm", "pdf":"iacr_2025_1954.pdf", "page":15, "rect":[128,476,282,601], "figure":"Fig. 7(b)", "note":"CHES2025 的五种泄漏模型 GE 曲线；100 条攻击轨迹为评估步长。"},
+  {"name":"nlm-aeshd-ge", "key":"nlm", "pdf":"iacr_2025_1954.pdf", "page":12, "rect":[204,308,389,446], "figure":"Fig. 3(b)", "note":"AES_HD 的 GE 曲线；与幻灯片中的 S9=2700、NLM=2900 数字配合阅读。"}
+]
